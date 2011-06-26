@@ -67,6 +67,14 @@ html {
  text-decoration:underline;
 }
 
+a {
+ color:#f80000;
+}
+
+a:visited{
+ color:#f80000;
+}
+
 #footer {
   background:#cc9;
   clear:both;
