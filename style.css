@@ -52,6 +52,21 @@ html {
   padding-right:9px;
 }
 
+#nav li a{
+ color:white;
+ text-decoration:none;
+}
+
+#nav li a:visited{
+ color:white;
+ text-decoration:none;
+}
+
+#nav li a:hover{
+ color:white;
+ text-decoration:underline;
+}
+
 #footer {
   background:#cc9;
   clear:both;

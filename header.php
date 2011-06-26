@@ -29,6 +29,6 @@
       </div>
       <div id="main">
         <div id="masthead">
-          <img src="images/ttto.png" alt="logo" title="" height="200" width="200">
-          <img src="images/header.png" style="vertical-align:top; margin-top:50px" alt="August 13, 2011, Toronto Underground Cinema" title="">
+          <img src="<?php bloginfo('template_url')?>/images/ttto.png" alt="logo" title="" height="200" width="200">
+          <img src="<?php bloginfo('template_url')?>/images/header.png" style="vertical-align:top; margin-top:50px" alt="August 13, 2011, Toronto Underground Cinema" title="">
         </div>
