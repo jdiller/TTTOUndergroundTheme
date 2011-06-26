@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>TechTalksTO: Underground - August 13, 2011 - Toronto</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
-  <body>
-    <div id="wrap">
-      <div id="header"></div>
-      <div id="nav">
-        <ul>
-          <li>The Venue</li>
-          <li>The Talks</li>
-          <li>The Speakers</li>
-          <li>The After-Party</li>
-          <li>Tickets</li>
-        </ul>
-      </div>
-      <div id="main">
-        <div id="masthead">
-          <img src="images/ttto.png" alt="logo" title="" height="200" width="200">
-          <img src="images/header.png" style="vertical-align:top; margin-top:50px" alt="August 13, 2011, Toronto Underground Cinema" title="">
-        </div>
-      </div>
-      <div id="footer">
-        Sponsors, legalese, footer, yay.
-      </div>
-    </div>
-  </body>
-</html>
+<?php get_header(); ?>
+<div id="content">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+  <?php the_content(); ?>
+  <p><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?> | <?php the_category(', '); ?> | <?php comments_number('No comment', '1 comment', '% comments'); ?></p>
+  <?php endwhile; else: ?>
+  <h2>Woops...</h2>
+  <p>Sorry, no posts we're found.</p>
+  <?php endif; ?>
+  <p align="center"><?php posts_nav_link(); ?></p>
+</div>
+<?php get_footer(); ?>
