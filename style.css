@@ -112,10 +112,14 @@ a:visited{
   float:right;
 }
 
-.floatleft img{
+.clearboth{
+ clear:both;
+}
+
+img.floatleft{
   margin-right:15px;
 }
 
-.floatright img{
+img.floatright{
   margin-left:15px;
 }
