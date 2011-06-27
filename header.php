@@ -29,6 +29,14 @@
       </div>
       <div id="main">
         <div id="masthead">
-          <img src="<?php bloginfo('template_url')?>/images/ttto.png" alt="logo" title="" height="200" width="200">
-          <img src="<?php bloginfo('template_url')?>/images/header.png" style="vertical-align:top; margin-top:50px" alt="August 13, 2011, Toronto Underground Cinema" title="">
+          <img id="logo" src="<?php bloginfo('template_url')?>/images/ttto.png" alt="logo" title="" height="200" width="200">
+          <img id="underground-img" src="<?php bloginfo('template_url')?>/images/header.png" alt="August 13, 2011, Toronto Underground Cinema" title="">
         </div>
+      <div id="buytickets">
+         <img src="<?php bloginfo('template_url')?>/images/buynow.png" alt="Buy Tickets" height="80">
+         <table id="pricing">
+            <tr><td><span style="font-weight:bold">Early Bird:&nbsp;</span></td><td><span>$99</span></td></tr>
+            <tr><td><span style="font-weight:bold">Regular:&nbsp;</span></td><td><span>$150</span></td></tr>
+         </table>
+      </div>
+      <div style="clear:both"></div>
