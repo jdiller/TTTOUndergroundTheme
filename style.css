@@ -97,6 +97,25 @@ a:visited{
   vertical-align:top;
   margin-top:40px;
   margin-left:15px;
-
 }
 
+.speaker-img{
+  box-shadow: 7px 7px 5px #888;
+  -moz-box-shadow: 7px 7px 5px #888;
+}
+
+.floatleft{
+  float:left;
+}
+
+.floatright{
+  float:right;
+}
+
+.floatleft img{
+  margin-right:15px;
+}
+
+.floatright img{
+  margin-left:15px;
+}
