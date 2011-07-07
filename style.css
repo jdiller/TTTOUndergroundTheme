@@ -80,8 +80,10 @@ a:visited{
 }
 
 #footer {
-  background:#cc9;
+  background:#e5f4fe;
   clear:both;
+  font-size: small;
+  font-family: verdana, helvetica, arial, sans-serif;
 }
 
 #buytickets {
