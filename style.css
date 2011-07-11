@@ -11,7 +11,7 @@ html {
 #wrap {
   width:1000px;
   margin:0 auto;
-  background:#ffffff;
+  background:#000;
 }
 
 #main {
@@ -80,10 +80,39 @@ a:visited{
 }
 
 #footer {
-  background:#e5f4fe;
+  background:#cdcdcd;
   clear:both;
+  color:#606060;
   font-size: small;
+  margin-left:20px;
+  padding-top:10px;
+  padding-bottom:10px;
   font-family: verdana, helvetica, arial, sans-serif;
+}
+
+#footer a{
+  color:#606060;
+  text-decoration:none;
+}
+
+#footer a:visited{
+  color:#606060;
+  text-decoration:none;
+}
+
+#footer a:hover{
+  color:#606060;
+  text-decoration:underline;
+}
+
+#footer img{
+  vertical-align:middle;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+#footer span{
+  padding-top:25px;
 }
 
 #buytickets {
