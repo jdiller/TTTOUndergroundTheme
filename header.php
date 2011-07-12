@@ -36,8 +36,8 @@
         <a href="http://guestli.st/63219">
          <img src="<?php bloginfo('template_url')?>/images/buynow.png" alt="Buy Tickets" height="80">
         </a>
-         <table id="pricing">
-            <tr><td><span style="font-weight:bold">Regular:&nbsp;</span></td><td><span>$150</span></td></tr>
-         </table>
+	<div style='width:100%;text-align:center'>
+        	<span style="font-weight:bold">Regular:&nbsp;</span></td><td><span>$150</span>
+	</div>
       </div>
       <div style="clear:both"></div>
