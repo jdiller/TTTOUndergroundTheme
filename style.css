@@ -93,16 +93,19 @@ a:visited{
 #footer a{
   color:#606060;
   text-decoration:none;
+  border-bottom: 1px dotted #606060;
 }
 
 #footer a:visited{
   color:#606060;
   text-decoration:none;
+  border-bottom:1px dotted #606060;
 }
 
 #footer a:hover{
   color:#606060;
   text-decoration:underline;
+  border-bottom:none;
 }
 
 #footer img{
