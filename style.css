@@ -1,6 +1,6 @@
 body,
 html {
-  margin:0;
+  margin:20px;
   padding:0;
   color:#000;
   background:#000000;
@@ -29,7 +29,8 @@ text-shadow: #111 2px 2px 3px;
   background:#ffffff;
   border-radius:15px;
   -moz-border-radius:15px;
-  padding:10px;
+  padding:15px;
+  margin-top:9px;
 }
 
 #header {
@@ -61,8 +62,7 @@ text-shadow: #111 2px 2px 3px;
   border-top-left-radius:3px;
   -moz-border-top-right-radius:3px;
   -moz-border-top-left-radius:3px;
-  padding-left:9px;
-  padding-right:9px;
+  padding:9px;
 }
 
 #nav li a{
@@ -171,3 +171,13 @@ img.floatleft{
 img.floatright{
   margin-left:15px;
 }
+
+.slideshow{
+  width:310px;
+  height:210px;
+}
+.slideshow img {
+  display:none;
+}
+
+
