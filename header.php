@@ -39,7 +39,7 @@ $(document).ready(function() {
       <div id="main">
         <div id="masthead">
           <img id="logo" src="<?php bloginfo('template_url')?>/images/ttto.png" alt="logo" title="" height="200" width="200">
-          <img id="underground-img" src="<?php bloginfo('template_url')?>/images/header.png" alt="August 13, 2011, Toronto Underground Cinema" title="">
+          <img id="underground-img" src="<?php bloginfo('template_url')?>/images/header-new.png" alt="August 13, 2011, Toronto Underground Cinema" title="">
         </div>
       <div id="buytickets">
         <a href="http://guestli.st/63219">
