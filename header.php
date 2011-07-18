@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen,projection" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/script/jquery.cycle.lite.js"></script>
     <?php wp_head(); ?>
    <script type="text/javascript">
 
@@ -17,6 +19,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+   $('.slideshow').cycle({
+	fx: 'fade'
+   });
+});
 </script>
   </head>
   <body>
